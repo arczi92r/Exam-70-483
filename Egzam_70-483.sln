@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TestIDisposable", "01.IDisposable\01.TestIDisposable.csproj", "{131953EE-8265-430F-AA29-C4940325F6FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AsyncAwait", "AsyncAwait", "{8135D4AA-36E6-4088-B94B-01E472B57A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.AsyncAwait", "01.AsyncAwait\01.AsyncAwait.csproj", "{B963B8F8-945F-4B00-A93D-EE31C6A63F78}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{131953EE-8265-430F-AA29-C4940325F6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131953EE-8265-430F-AA29-C4940325F6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131953EE-8265-430F-AA29-C4940325F6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131953EE-8265-430F-AA29-C4940325F6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B963B8F8-945F-4B00-A93D-EE31C6A63F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B963B8F8-945F-4B00-A93D-EE31C6A63F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B963B8F8-945F-4B00-A93D-EE31C6A63F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B963B8F8-945F-4B00-A93D-EE31C6A63F78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B963B8F8-945F-4B00-A93D-EE31C6A63F78} = {8135D4AA-36E6-4088-B94B-01E472B57A9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56257244-F333-4DC9-AD47-3A8409D5794D}
